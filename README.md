@@ -21,7 +21,9 @@ gerargmax(Qest,state,allowed_actions,disp=False): returns best action after look
 
 getnpmax(Qest,state): returns np.max(Q(s,a))
 
-training(boardsize,gamma): responsible for main training , takes boardsize and gamma as input and builds Qvalues for each state visited. Returns Qvalues at the end.
+training(boardsize,gamma): responsible for main training , takes boardsize and gamma as input and builds Qvalues for each state visited. Returns Qvalues at the end.  
+
+The enable graphs  , please uncomment the code in training and QTrain.py
 
 
 --TreeSearch.py--
